@@ -4,14 +4,17 @@
 
 A building owner sticks a printed marker (a 60 mm black-and-white square) next to a wall crack and photographs
 it once a week from a phone browser. **OpenCV 5** measures the crack in millimetres and lines the photo up with
-last week's. An **AI agent** (Amazon Nova on Amazon Bedrock) calls those OpenCV functions as tools and decides
-what happens next:
+last week's. An **AI agent** (Amazon Nova 2 Lite on Amazon Bedrock) calls those OpenCV functions as tools and
+decides what happens next:
 - ask for a better photo, with a specific fix
 - ask for a close-up of the widest point
 - save the reading as stable
 - ask a structural engineer to approve the next step (e-mail through Amazon SNS)
 
 Every decision is logged and shown on the case page.
+
+**Live:** runs on AWS Lambda with Nova 2 Lite making the decisions (about 8 s per photo end to end; access code
+given to the judges). **Video:** https://youtu.be/O0pobe9cLH8
 
 ![Architecture](docs/architecture.png)
 
@@ -63,7 +66,8 @@ alone lined up 9 of 13 photo pairs; ORB with the networks as backup lined up 12 
   - Max width reads +0.13 mm high on average, but very consistently: 0.02 mm standard deviation over 8 viewpoints. So week-to-week growth is still measured fairly.
 - **Too-thin cracks are never guessed:** every crack under 4 px was flagged for a close-up.
 - **Alignment:** −25° vs +15° and 250 vs 450 mm still line up (shift error < 0.3 mm). A marker moved by 4 mm or more is flagged, and the move is measured within 0.1 mm.
-- **Speed:** 0.4–0.6 s per photo on a laptop CPU; the full agent turn takes ~0.7 s with the rules backup.
+- **Speed:** 0.4–0.6 s per photo on a laptop CPU; the full agent turn takes ~0.7 s with the rules backup and
+  about 8 s on the live app with Nova 2 Lite.
 
 Real-photo results come from `tools/eval_lines.py` on photos of the printed test sheet (see below).
 

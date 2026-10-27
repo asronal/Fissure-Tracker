@@ -1,6 +1,7 @@
 # Devpost submission draft
 
-> Fill in before submitting: access code, video link, GitHub repo. Track: **Agentic Vision Award**.
+> Submitted 27 Oct 2026: https://devpost.com/software/fissure_tracker · Video: https://youtu.be/O0pobe9cLH8 ·
+> Track: **Agentic Vision Award**.
 
 **Name:** Fissure Tracker
 
@@ -53,7 +54,6 @@ advice is to measure it every few weeks. Almost nobody does: gauges are fiddly, 
 - The two models (52 MB) don't fit in the Lambda layer next to OpenCV: they live in S3 and are copied to
   `/tmp` when the function starts.
 - A close-up can't be lined up with a normal photo: the agent compares with the latest photo of similar scale.
-- A new AWS account starts with zero Bedrock quota: the rules backup kept the app usable while we waited.
 
 ## Accomplishments
 - On real iPhone photos of our printed test sheet, lines from 0.3 to 3 mm read within 0.11 mm (mean error
@@ -67,8 +67,8 @@ advice is to measure it every few weeks. Almost nobody does: gauges are fiddly, 
   asking for exactly the photo it needs.
 - Safety rules belong in code, not in the prompt. The model chooses the next tool, but code stops it from closing
   a case that needs an engineer.
-- Plan for the model being unavailable. A backup that uses the same tools and the same trace meant the app worked
-  from day one, even while the Bedrock quota was still zero.
+- Plan for the model being unavailable. A backup that uses the same tools and the same trace keeps the app
+  working through network errors, timeouts and rate limits.
 - Small costs add up on serverless: putting OpenCV in a Lambda layer and photos in S3 kept each check to a cent
   or two.
 
@@ -82,6 +82,6 @@ advice is to measure it every few weeks. Almost nobody does: gauges are fiddly, 
 opencv, python, numpy, aws-lambda, amazon-bedrock, amazon-nova, amazon-dynamodb, amazon-s3, amazon-sns, html
 
 ## Links
-- Try it: `https://hx64dq2waacw4s76cojqxw3d3q0kjien.lambda-url.us-east-1.on.aws/?code=[access code]`
-- Code: `[GitHub repo]`
-- Video: `[YouTube link]`
+- Try it: `https://hx64dq2waacw4s76cojqxw3d3q0kjien.lambda-url.us-east-1.on.aws/` (access code given to the judges)
+- Code: https://github.com/asronal/Fissure-Tracker
+- Video: https://youtu.be/O0pobe9cLH8

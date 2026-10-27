@@ -2,7 +2,8 @@
 
 **OpenCV AI Competition 2026 (powered by AWS): Agentic Vision · Team: Asron, Anuj**
 
-> Fill in before submitting: live endpoint `https://hx64dq2waacw4s76cojqxw3d3q0kjien.lambda-url.us-east-1.on.aws/` · Bedrock model live: `[yes / rules backup only]`
+> Live endpoint: `https://hx64dq2waacw4s76cojqxw3d3q0kjien.lambda-url.us-east-1.on.aws/` (access code given to the
+> judges) · Bedrock model live: **yes, Amazon Nova 2 Lite** · Video: https://youtu.be/O0pobe9cLH8
 
 ## 1. Problem
 
