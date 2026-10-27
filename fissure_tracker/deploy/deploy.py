@@ -15,7 +15,7 @@ What it creates in us-east-1 (all named "crack-monitor..."):
     Budget           e-mails ALERT_EMAIL when this month's usage passes $20 (counted before credits)
 Photos go into an existing private S3 bucket under the folder crack-monitor/.
 
-Settings: environment variables or crack_monitor/.env (never commit it):
+Settings: environment variables or fissure_tracker/.env (never commit it):
     ENGINEER_EMAIL   who gets review requests          ALERT_EMAIL   who gets the budget alert
     BUCKET_NAME      existing private bucket (default krishidrishti-images-asron)
     BEDROCK_MODEL_ID default us.amazon.nova-2-lite-v1:0

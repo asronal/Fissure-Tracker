@@ -5,8 +5,8 @@ outputs/
 build/
 .env
 .env.*
-crack_monitor/samples/
-crack_monitor/models/
+fissure_tracker/samples/
+fissure_tracker/models/
 
 # videos and phone photos (large; the video is on YouTube)
 *.mp4

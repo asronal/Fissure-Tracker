@@ -72,7 +72,7 @@ Real-photo results come from `tools/eval_lines.py` on photos of the printed test
 Windows PowerShell, Python 3.11+ (tested with 3.11.9 locally; Lambda runs 3.13):
 
 ```powershell
-cd crack_monitor
+cd fissure_tracker
 python -m venv ..\venv
 ..\venv\Scripts\pip install -r requirements-dev.txt     # opencv-python-headless 5.0.0.93, numpy 2.4.6, pytest, boto3
 ..\venv\Scripts\python tools\get_models.py              # OpenCV 5 ALIKED + LightGlue models, 52 MB (optional)
@@ -104,7 +104,7 @@ No printer? `sheets/draw_guide.pdf` shows how to draw the markers on 1 cm graph 
 ## Deploy to AWS
 
 Needs AWS credentials with permission to create the resources below, and Bedrock access to Amazon Nova 2 Lite in
-us-east-1. Settings go in `crack_monitor/.env` (git-ignored):
+us-east-1. Settings go in `fissure_tracker/.env` (git-ignored):
 
 ```
 ENGINEER_EMAIL=engineer@example.com
@@ -157,7 +157,7 @@ the free tier at demo scale.
 ## Project layout
 
 ```
-crack_monitor/
+fissure_tracker/
   marker.py quality.py crack.py align.py   OpenCV 5 perception
   agent.py                                 the agent: tools, safety rules, Bedrock loop, rules backup
   app.py serve_local.py lambda_function.py web app (laptop + AWS Lambda)

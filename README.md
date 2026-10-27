@@ -6,9 +6,9 @@ A wall-crack growth monitor. OpenCV 5 measures a crack in millimetres from a pho
 and an AI agent on Amazon Bedrock uses those measurements to decide the next step. It can ask for a retake or
 close-up, save the reading, or ask a structural engineer to approve.
 
-The code is in [`crack_monitor/`](crack_monitor/README.md).
+The code is in [`fissure_tracker/`](fissure_tracker/README.md).
 
-- Start here: [crack_monitor/README.md](crack_monitor/README.md) (setup, tests, deploy)
-- Technical report: [crack_monitor/docs/report.md](crack_monitor/docs/report.md)
-- Evaluation: [crack_monitor/docs/evaluation.md](crack_monitor/docs/evaluation.md)
-- Agent trace example: [crack_monitor/docs/trace_example.md](crack_monitor/docs/trace_example.md)
+- Start here: [fissure_tracker/README.md](fissure_tracker/README.md) (setup, tests, deploy)
+- Technical report: [fissure_tracker/docs/report.md](fissure_tracker/docs/report.md)
+- Evaluation: [fissure_tracker/docs/evaluation.md](fissure_tracker/docs/evaluation.md)
+- Agent trace example: [fissure_tracker/docs/trace_example.md](fissure_tracker/docs/trace_example.md)
