@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="297.0mm" viewBox="0 0 210.0 297.0" shape-rendering="crispEdges">
+<rect width="210.0" height="297.0" fill="#fff"/>
+<text x="15" y="16" font-family="Arial, sans-serif" font-size="6" font-weight="bold" text-anchor="start" fill="#000">Crack markers 1-6 (60 mm)</text>
+<text x="15" y="23" font-family="Arial, sans-serif" font-size="3.4" font-weight="normal" text-anchor="start" fill="#000">Stick one marker flat on the wall next to each crack and leave it there. Keep the white border around it.</text>
+<rect x="15.000" y="30.000" width="50.000" height="1.500" fill="#000000"/>
+<rect x="14.850" y="28.000" width="0.300" height="5.500" fill="#000000"/>
+<rect x="24.850" y="28.000" width="0.300" height="5.500" fill="#000000"/>
+<rect x="34.850" y="28.000" width="0.300" height="5.500" fill="#000000"/>
+<rect x="44.850" y="28.000" width="0.300" height="5.500" fill="#000000"/>
+<rect x="54.850" y="28.000" width="0.300" height="5.500" fill="#000000"/>
+<rect x="64.850" y="28.000" width="0.300" height="5.500" fill="#000000"/>
+<text x="70" y="31.8" font-family="Arial, sans-serif" font-size="3.4" font-weight="normal" text-anchor="start" fill="#000">must measure exactly 50 mm - if not, reprint at 100% scale</text>
+<rect x="25.000" y="45.000" width="60.000" height="60.000" fill="#000000"/>
+<rect x="35.000" y="65.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="45.000" y="65.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="55.000" y="65.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="65.000" y="65.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="35.000" y="75.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="65.000" y="75.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="35.000" y="85.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="55.000" y="85.000" width="10.000" height="10.000" fill="#ffffff"/>
+<text x="55.0" y="113.0" font-family="Arial, sans-serif" font-size="4.5" font-weight="bold" text-anchor="middle" fill="#000">Crack #1</text>
+<rect x="115.000" y="45.000" width="60.000" height="60.000" fill="#000000"/>
+<rect x="145.000" y="55.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="155.000" y="55.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="145.000" y="65.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="155.000" y="65.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="145.000" y="75.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="125.000" y="85.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="135.000" y="85.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="155.000" y="85.000" width="10.000" height="10.000" fill="#ffffff"/>
+<text x="145.0" y="113.0" font-family="Arial, sans-serif" font-size="4.5" font-weight="bold" text-anchor="middle" fill="#000">Crack #2</text>
+<rect x="25.000" y="128.000" width="60.000" height="60.000" fill="#000000"/>
+<rect x="35.000" y="138.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="65.000" y="138.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="35.000" y="148.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="65.000" y="148.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="45.000" y="158.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="45.000" y="168.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="55.000" y="168.000" width="10.000" height="10.000" fill="#ffffff"/>
+<text x="55.0" y="196.0" font-family="Arial, sans-serif" font-size="4.5" font-weight="bold" text-anchor="middle" fill="#000">Crack #3</text>
+<rect x="115.000" y="128.000" width="60.000" height="60.000" fill="#000000"/>
+<rect x="135.000" y="138.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="155.000" y="138.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="135.000" y="148.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="125.000" y="158.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="155.000" y="158.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="125.000" y="168.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="135.000" y="168.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="145.000" y="168.000" width="10.000" height="10.000" fill="#ffffff"/>
+<text x="145.0" y="196.0" font-family="Arial, sans-serif" font-size="4.5" font-weight="bold" text-anchor="middle" fill="#000">Crack #4</text>
+<rect x="25.000" y="211.000" width="60.000" height="60.000" fill="#000000"/>
+<rect x="45.000" y="221.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="55.000" y="221.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="65.000" y="221.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="35.000" y="231.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="65.000" y="231.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="35.000" y="241.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="45.000" y="241.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="35.000" y="251.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="45.000" y="251.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="65.000" y="251.000" width="10.000" height="10.000" fill="#ffffff"/>
+<text x="55.0" y="279.0" font-family="Arial, sans-serif" font-size="4.5" font-weight="bold" text-anchor="middle" fill="#000">Crack #5</text>
+<rect x="115.000" y="211.000" width="60.000" height="60.000" fill="#000000"/>
+<rect x="125.000" y="221.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="155.000" y="221.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="125.000" y="231.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="135.000" y="231.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="145.000" y="231.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="145.000" y="241.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="125.000" y="251.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="135.000" y="251.000" width="10.000" height="10.000" fill="#ffffff"/>
+<rect x="145.000" y="251.000" width="10.000" height="10.000" fill="#ffffff"/>
+<text x="145.0" y="279.0" font-family="Arial, sans-serif" font-size="4.5" font-weight="bold" text-anchor="middle" fill="#000">Crack #6</text>
+</svg>

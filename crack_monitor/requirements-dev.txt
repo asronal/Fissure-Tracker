@@ -1,0 +1,5 @@
+# Extra tools for the laptop: tests + talking to AWS
+# (boto3 is already built into AWS Lambda, so it is not in requirements.txt)
+-r requirements.txt
+pytest==9.1.1
+boto3==1.43.114

@@ -1,0 +1,24 @@
+venv/
+__pycache__/
+.pytest_cache/
+outputs/
+build/
+.env
+.env.*
+crack_monitor/samples/
+crack_monitor/models/
+
+# videos and phone photos (large; the video is on YouTube)
+*.mp4
+*.mov
+*.heic
+*.HEIC
+
+# tools and editors
+.remember/
+.claude/
+.vscode/
+.idea/
+*.log
+Thumbs.db
+.DS_Store

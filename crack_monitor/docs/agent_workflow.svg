@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 720" width="1000" height="720" font-family="Segoe UI, system-ui, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#52514e"/>
+    </marker>
+    <style>
+      .tool { fill: #eef6ee; stroke: #0ca30c; stroke-width: 1.5; }
+      .act { fill: #fdf4ea; stroke: #ec835a; stroke-width: 1.5; }
+      .end { fill: #f5f8fd; stroke: #2a78d6; stroke-width: 1.5; }
+      .human { fill: #fbeeee; stroke: #d03b3b; stroke-width: 1.5; }
+      .t { font-size: 14.5px; font-weight: 600; fill: #0b0b0b; }
+      .s { font-size: 12.5px; fill: #52514e; }
+      .c { font-size: 12px; fill: #0b0b0b; font-style: italic; }
+      .line { stroke: #52514e; stroke-width: 1.5; fill: none; marker-end: url(#a); }
+    </style>
+  </defs>
+  <rect width="1000" height="720" fill="#ffffff"/>
+  <text x="24" y="34" font-size="20" font-weight="700" fill="#0b0b0b">Agent workflow: OpenCV results decide the next tool call</text>
+  <text x="24" y="56" font-size="13" fill="#52514e">Green = OpenCV 5 perception tools · orange = actions that end the turn · red = human approval.</text>
+  <text x="24" y="73" font-size="13" fill="#52514e">The model (Nova) or the rules backup chooses each step; safety rules in code block unsafe choices.</text>
+
+  <!-- column of perception tools -->
+  <rect class="end" x="40" y="86" width="200" height="44" rx="10"/>
+  <text class="t" x="56" y="113">New photo uploaded</text>
+
+  <rect class="tool" x="40" y="160" width="200" height="60" rx="10"/>
+  <text class="t" x="56" y="186">check_photo</text>
+  <text class="s" x="56" y="206">marker ID, scale, tilt, blur, light</text>
+
+  <rect class="tool" x="40" y="270" width="200" height="60" rx="10"/>
+  <text class="t" x="56" y="296">measure_crack</text>
+  <text class="s" x="56" y="316">max width ± uncertainty, length</text>
+
+  <rect class="tool" x="40" y="380" width="200" height="60" rx="10"/>
+  <text class="t" x="56" y="406">compare_with_history</text>
+  <text class="s" x="56" y="426">align: ORB / ALIKED+LightGlue</text>
+
+  <rect class="tool" x="40" y="490" width="200" height="60" rx="10"/>
+  <text class="t" x="56" y="516">assess</text>
+  <text class="s" x="56" y="536">width, growth, marker moved</text>
+
+  <path class="line" d="M140,130 L140,156"/>
+  <path class="line" d="M140,220 L140,266"/>
+  <path class="line" d="M140,330 L140,376"/>
+  <path class="line" d="M140,440 L140,486"/>
+  <text class="c" x="150" y="248">photo OK</text>
+  <text class="c" x="150" y="358">measurable</text>
+  <text class="c" x="150" y="468">lined up</text>
+
+  <!-- actions -->
+  <rect class="act" x="420" y="160" width="250" height="60" rx="10"/>
+  <text class="t" x="436" y="186">ask_for_photo (retake)</text>
+  <text class="s" x="436" y="206">"Hold still and tap to focus" …</text>
+  <path class="line" d="M240,190 L416,190"/>
+  <text class="c" x="252" y="182">blurry / dark / no marker / tilted</text>
+
+  <rect class="act" x="420" y="270" width="250" height="60" rx="10"/>
+  <text class="t" x="436" y="296">ask_for_photo (close-up)</text>
+  <text class="s" x="436" y="316">"widest part: 5 cm below the marker"</text>
+  <path class="line" d="M240,300 L416,300"/>
+  <text class="c" x="252" y="292">crack &lt; 4 px wide</text>
+
+  <rect class="act" x="420" y="380" width="250" height="60" rx="10"/>
+  <text class="t" x="436" y="406">ask_for_photo (retake)</text>
+  <text class="s" x="436" y="426">"stand where you stood last time"</text>
+  <path class="line" d="M240,410 L416,410"/>
+  <text class="c" x="252" y="402">too few matches</text>
+
+  <rect class="act" x="420" y="490" width="250" height="60" rx="10"/>
+  <text class="t" x="436" y="516">ask_for_photo (close-up)</text>
+  <text class="s" x="436" y="536">confirm before alerting anyone</text>
+  <path class="line" d="M240,520 L416,520"/>
+  <text class="c" x="252" y="512">change, but ± &gt; 0.2 mm</text>
+
+  <rect class="end" x="40" y="620" width="200" height="60" rx="10"/>
+  <text class="t" x="56" y="646">save_reading</text>
+  <text class="s" x="56" y="666">"stable, next photo in a week"</text>
+  <path class="line" d="M140,550 L140,616"/>
+  <text class="c" x="150" y="590">nothing needs a human</text>
+
+  <rect class="human" x="420" y="620" width="250" height="60" rx="10"/>
+  <text class="t" x="436" y="646">request_engineer_review</text>
+  <text class="s" x="436" y="666">≥ 2 mm, grew, narrower, marker moved</text>
+  <path class="line" d="M240,540 C 330,560 330,640 416,650"/>
+
+  <rect class="human" x="740" y="620" width="230" height="60" rx="10"/>
+  <text class="t" x="756" y="646">Engineer decides</text>
+  <text class="s" x="756" y="666">inspect / no action → owner</text>
+  <path class="line" d="M670,650 L736,650"/>
+  <text class="c" x="676" y="640">SNS e-mail</text>
+
+  <!-- loop back: one bus line -->
+  <path d="M670,190 L700,190 M670,300 L700,300 M670,410 L700,410 M670,520 L700,520 M700,520 L700,105"
+        stroke="#52514e" stroke-width="1.5" fill="none"/>
+  <path class="line" d="M700,105 L244,105"/>
+  <text class="c" x="300" y="98">owner sends the next photo (same case, at most 4 photos)</text>
+
+  <!-- safety notes -->
+  <rect x="728" y="160" width="250" height="230" rx="10" fill="#fcfcfb" stroke="#c3c2b7" stroke-width="1.5"/>
+  <text class="t" x="744" y="186">Safety rules (in code)</text>
+  <text class="s" x="744" y="210">• check_photo must come first</text>
+  <text class="s" x="744" y="232">• can't save a reading that</text>
+  <text class="s" x="744" y="250">   needs an engineer</text>
+  <text class="s" x="744" y="272">• after 4 photos: engineer,</text>
+  <text class="s" x="744" y="290">   not another request</text>
+  <text class="s" x="744" y="312">• ≤ 8 model calls, 45 s budget</text>
+  <text class="s" x="744" y="334">• Bedrock error → rules backup</text>
+  <text class="s" x="744" y="356">• every step logged with who</text>
+  <text class="s" x="744" y="374">   decided (model / rules / engineer)</text>
+</svg>

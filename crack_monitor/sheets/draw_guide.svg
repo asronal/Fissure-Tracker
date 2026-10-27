@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="210.0mm" height="297.0mm" viewBox="0 0 210.0 297.0" shape-rendering="crispEdges">
+<rect width="210.0" height="297.0" fill="#fff"/>
+<text x="15" y="16" font-family="Arial, sans-serif" font-size="6" font-weight="bold" text-anchor="start" fill="#000">No printer? Draw the markers by hand</text>
+<text x="15" y="24" font-family="Arial, sans-serif" font-size="3.4" font-weight="normal" text-anchor="start" fill="#000">On 1 cm graph paper, draw a 6 x 6 square block (6 cm x 6 cm). Colour the black squares fully with a black marker pen.</text>
+<text x="15" y="29" font-family="Arial, sans-serif" font-size="3.4" font-weight="normal" text-anchor="start" fill="#000">Keep at least 1 cm of white paper all around. Check the block is exactly 6 cm wide with a ruler.</text>
+<rect x="30.000" y="42.000" width="36.000" height="36.000" fill="#000000"/>
+<rect x="36.000" y="54.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="42.000" y="54.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="48.000" y="54.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="54.000" y="54.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="36.000" y="60.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="54.000" y="60.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="36.000" y="66.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="48.000" y="66.000" width="6.000" height="6.000" fill="#ffffff"/>
+<line x1="30.000" y1="42.000" x2="30.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="42.000" x2="66.000" y2="42.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="36.000" y1="42.000" x2="36.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="48.000" x2="66.000" y2="48.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="42.000" y1="42.000" x2="42.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="54.000" x2="66.000" y2="54.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="48.000" y1="42.000" x2="48.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="60.000" x2="66.000" y2="60.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="54.000" y1="42.000" x2="54.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="66.000" x2="66.000" y2="66.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="60.000" y1="42.000" x2="60.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="72.000" x2="66.000" y2="72.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="66.000" y1="42.000" x2="66.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="78.000" x2="66.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<text x="48.0" y="86.0" font-family="Arial, sans-serif" font-size="4" font-weight="bold" text-anchor="middle" fill="#000">Crack #1 (draw 6 cm wide)</text>
+<rect x="120.000" y="42.000" width="36.000" height="36.000" fill="#000000"/>
+<rect x="138.000" y="48.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="144.000" y="48.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="138.000" y="54.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="144.000" y="54.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="138.000" y="60.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="126.000" y="66.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="132.000" y="66.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="144.000" y="66.000" width="6.000" height="6.000" fill="#ffffff"/>
+<line x1="120.000" y1="42.000" x2="120.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="42.000" x2="156.000" y2="42.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="126.000" y1="42.000" x2="126.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="48.000" x2="156.000" y2="48.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="132.000" y1="42.000" x2="132.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="54.000" x2="156.000" y2="54.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="138.000" y1="42.000" x2="138.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="60.000" x2="156.000" y2="60.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="144.000" y1="42.000" x2="144.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="66.000" x2="156.000" y2="66.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="150.000" y1="42.000" x2="150.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="72.000" x2="156.000" y2="72.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="156.000" y1="42.000" x2="156.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="78.000" x2="156.000" y2="78.000" stroke="#999999" stroke-width="0.25"/>
+<text x="138.0" y="86.0" font-family="Arial, sans-serif" font-size="4" font-weight="bold" text-anchor="middle" fill="#000">Crack #2 (draw 6 cm wide)</text>
+<rect x="30.000" y="122.000" width="36.000" height="36.000" fill="#000000"/>
+<rect x="36.000" y="128.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="54.000" y="128.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="36.000" y="134.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="54.000" y="134.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="42.000" y="140.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="42.000" y="146.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="48.000" y="146.000" width="6.000" height="6.000" fill="#ffffff"/>
+<line x1="30.000" y1="122.000" x2="30.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="122.000" x2="66.000" y2="122.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="36.000" y1="122.000" x2="36.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="128.000" x2="66.000" y2="128.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="42.000" y1="122.000" x2="42.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="134.000" x2="66.000" y2="134.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="48.000" y1="122.000" x2="48.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="140.000" x2="66.000" y2="140.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="54.000" y1="122.000" x2="54.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="146.000" x2="66.000" y2="146.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="60.000" y1="122.000" x2="60.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="152.000" x2="66.000" y2="152.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="66.000" y1="122.000" x2="66.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="158.000" x2="66.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<text x="48.0" y="166.0" font-family="Arial, sans-serif" font-size="4" font-weight="bold" text-anchor="middle" fill="#000">Crack #3 (draw 6 cm wide)</text>
+<rect x="120.000" y="122.000" width="36.000" height="36.000" fill="#000000"/>
+<rect x="132.000" y="128.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="144.000" y="128.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="132.000" y="134.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="126.000" y="140.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="144.000" y="140.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="126.000" y="146.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="132.000" y="146.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="138.000" y="146.000" width="6.000" height="6.000" fill="#ffffff"/>
+<line x1="120.000" y1="122.000" x2="120.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="122.000" x2="156.000" y2="122.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="126.000" y1="122.000" x2="126.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="128.000" x2="156.000" y2="128.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="132.000" y1="122.000" x2="132.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="134.000" x2="156.000" y2="134.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="138.000" y1="122.000" x2="138.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="140.000" x2="156.000" y2="140.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="144.000" y1="122.000" x2="144.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="146.000" x2="156.000" y2="146.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="150.000" y1="122.000" x2="150.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="152.000" x2="156.000" y2="152.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="156.000" y1="122.000" x2="156.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="158.000" x2="156.000" y2="158.000" stroke="#999999" stroke-width="0.25"/>
+<text x="138.0" y="166.0" font-family="Arial, sans-serif" font-size="4" font-weight="bold" text-anchor="middle" fill="#000">Crack #4 (draw 6 cm wide)</text>
+<rect x="30.000" y="202.000" width="36.000" height="36.000" fill="#000000"/>
+<rect x="42.000" y="208.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="48.000" y="208.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="54.000" y="208.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="36.000" y="214.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="54.000" y="214.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="36.000" y="220.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="42.000" y="220.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="36.000" y="226.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="42.000" y="226.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="54.000" y="226.000" width="6.000" height="6.000" fill="#ffffff"/>
+<line x1="30.000" y1="202.000" x2="30.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="202.000" x2="66.000" y2="202.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="36.000" y1="202.000" x2="36.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="208.000" x2="66.000" y2="208.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="42.000" y1="202.000" x2="42.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="214.000" x2="66.000" y2="214.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="48.000" y1="202.000" x2="48.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="220.000" x2="66.000" y2="220.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="54.000" y1="202.000" x2="54.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="226.000" x2="66.000" y2="226.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="60.000" y1="202.000" x2="60.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="232.000" x2="66.000" y2="232.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="66.000" y1="202.000" x2="66.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="30.000" y1="238.000" x2="66.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<text x="48.0" y="246.0" font-family="Arial, sans-serif" font-size="4" font-weight="bold" text-anchor="middle" fill="#000">Crack #5 (draw 6 cm wide)</text>
+<rect x="120.000" y="202.000" width="36.000" height="36.000" fill="#000000"/>
+<rect x="126.000" y="208.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="144.000" y="208.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="126.000" y="214.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="132.000" y="214.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="138.000" y="214.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="138.000" y="220.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="126.000" y="226.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="132.000" y="226.000" width="6.000" height="6.000" fill="#ffffff"/>
+<rect x="138.000" y="226.000" width="6.000" height="6.000" fill="#ffffff"/>
+<line x1="120.000" y1="202.000" x2="120.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="202.000" x2="156.000" y2="202.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="126.000" y1="202.000" x2="126.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="208.000" x2="156.000" y2="208.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="132.000" y1="202.000" x2="132.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="214.000" x2="156.000" y2="214.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="138.000" y1="202.000" x2="138.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="220.000" x2="156.000" y2="220.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="144.000" y1="202.000" x2="144.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="226.000" x2="156.000" y2="226.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="150.000" y1="202.000" x2="150.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="232.000" x2="156.000" y2="232.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="156.000" y1="202.000" x2="156.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<line x1="120.000" y1="238.000" x2="156.000" y2="238.000" stroke="#999999" stroke-width="0.25"/>
+<text x="138.0" y="246.0" font-family="Arial, sans-serif" font-size="4" font-weight="bold" text-anchor="middle" fill="#000">Crack #6 (draw 6 cm wide)</text>
+</svg>

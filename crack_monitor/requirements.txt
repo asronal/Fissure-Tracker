@@ -1,0 +1,3 @@
+# Needed to run the crack monitor (locally and inside AWS Lambda)
+opencv-python-headless==5.0.0.93
+numpy==2.4.6

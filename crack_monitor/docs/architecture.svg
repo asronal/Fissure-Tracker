@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 600" width="1000" height="600" font-family="Segoe UI, system-ui, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0,0 L10,5 L0,10 z" fill="#52514e"/>
+    </marker>
+    <style>
+      .box { fill: #fcfcfb; stroke: #c3c2b7; stroke-width: 1.5; }
+      .aws { fill: #f5f8fd; stroke: #2a78d6; stroke-width: 1.5; }
+      .cv { fill: #eef6ee; stroke: #0ca30c; stroke-width: 1.5; }
+      .ai { fill: #fdf4ea; stroke: #ec835a; stroke-width: 1.5; }
+      .t { font-size: 15px; font-weight: 600; fill: #0b0b0b; }
+      .s { font-size: 12.5px; fill: #52514e; }
+      .l { font-size: 12px; fill: #52514e; }
+      .h { font-size: 13px; font-weight: 700; fill: #2a78d6; letter-spacing: 0.04em; }
+      .line { stroke: #52514e; stroke-width: 1.5; fill: none; marker-end: url(#a); }
+    </style>
+  </defs>
+  <rect width="1000" height="600" fill="#ffffff"/>
+  <text x="24" y="34" font-size="20" font-weight="700" fill="#0b0b0b">Architecture</text>
+
+  <!-- People -->
+  <rect class="box" x="24" y="90" width="170" height="92" rx="10"/>
+  <text class="t" x="40" y="118">Building owner</text>
+  <text class="s" x="40" y="140">phone browser: photo of</text>
+  <text class="s" x="40" y="157">crack + printed marker</text>
+  <text class="s" x="40" y="174">(shrunk to ≤ 2560 px)</text>
+
+  <rect class="box" x="24" y="430" width="170" height="92" rx="10"/>
+  <text class="t" x="40" y="458">Structural engineer</text>
+  <text class="s" x="40" y="480">gets an e-mail link,</text>
+  <text class="s" x="40" y="497">reviews photos + trace,</text>
+  <text class="s" x="40" y="514">presses a button</text>
+
+  <!-- AWS cloud -->
+  <rect x="240" y="56" width="736" height="520" rx="14" fill="none" stroke="#2a78d6" stroke-width="1.5" stroke-dasharray="6 5"/>
+  <text class="h" x="258" y="80">AWS · us-east-1</text>
+
+  <rect class="aws" x="262" y="98" width="150" height="70" rx="10"/>
+  <text class="t" x="276" y="126">Function URL</text>
+  <text class="s" x="276" y="148">public HTTPS, access code</text>
+
+  <!-- Lambda -->
+  <rect class="aws" x="440" y="98" width="330" height="330" rx="12"/>
+  <text class="t" x="456" y="124">AWS Lambda (Python 3.13, 2 GB)</text>
+  <text class="s" x="456" y="144">app.py: pages, upload, review</text>
+
+  <rect class="ai" x="458" y="160" width="294" height="76" rx="8"/>
+  <text class="t" x="472" y="184">agent.py: the agent loop</text>
+  <text class="s" x="472" y="204">picks the next tool; policy checks in code;</text>
+  <text class="s" x="472" y="221">rules backup if the model is unavailable</text>
+
+  <rect class="cv" x="458" y="252" width="294" height="160" rx="8"/>
+  <text class="t" x="472" y="276">OpenCV 5 tools (Lambda layer)</text>
+  <text class="s" x="472" y="298">marker.py · ArUco: ID, mm scale, tilt, warp</text>
+  <text class="s" x="472" y="318">quality.py · blur + light on the marker</text>
+  <text class="s" x="472" y="338">crack.py · black-hat, thinning, width, length</text>
+  <text class="s" x="472" y="358">align.py · ORB, then ALIKED + LightGlue</text>
+  <text class="s" x="472" y="384">~0.4 s per photo, no GPU</text>
+
+  <!-- Bedrock -->
+  <rect class="ai" x="800" y="160" width="160" height="96" rx="10"/>
+  <text class="t" x="814" y="186">Amazon Bedrock</text>
+  <text class="s" x="814" y="207">Nova 2 Lite</text>
+  <text class="s" x="814" y="224">Converse tool use</text>
+  <text class="s" x="814" y="241">maxTokens 700</text>
+
+  <!-- Storage -->
+  <rect class="aws" x="800" y="286" width="160" height="70" rx="10"/>
+  <text class="t" x="814" y="312">DynamoDB</text>
+  <text class="s" x="814" y="334">cases, traces, readings</text>
+
+  <rect class="aws" x="800" y="376" width="160" height="70" rx="10"/>
+  <text class="t" x="814" y="402">S3 (private)</text>
+  <text class="s" x="814" y="424">photos, 1-hour links</text>
+
+  <rect class="aws" x="440" y="460" width="160" height="70" rx="10"/>
+  <text class="t" x="454" y="486">Amazon SNS</text>
+  <text class="s" x="454" y="508">e-mail to engineer</text>
+
+  <rect class="aws" x="624" y="460" width="146" height="96" rx="10"/>
+  <text class="t" x="638" y="486">Guard rails</text>
+  <text class="s" x="638" y="506">IAM: least privilege</text>
+  <text class="s" x="638" y="523">Budget alert $20</text>
+  <text class="s" x="638" y="540">Logs: 14 days</text>
+
+  <rect class="aws" x="800" y="476" width="160" height="70" rx="10"/>
+  <text class="t" x="814" y="502">CloudWatch</text>
+  <text class="s" x="814" y="524">logs per request</text>
+
+  <!-- Arrows -->
+  <path class="line" d="M194,128 L258,128"/>
+  <text class="l" x="200" y="120">photo</text>
+  <path class="line" d="M412,133 L436,133"/>
+  <path class="line" d="M752,190 L796,190"/>
+  <path class="line" d="M798,226 L756,226"/>
+  <text class="l" x="757" y="184">tools</text>
+  <text class="l" x="757" y="242">calls</text>
+  <path class="line" d="M770,321 L796,321"/>
+  <path class="line" d="M770,411 L796,411"/>
+  <path class="line" d="M520,428 L520,456"/>
+  <path class="line" d="M440,495 L198,470"/>
+  <text class="l" x="282" y="470">review link</text>
+  <path class="line" d="M194,505 C 300,505 330,260 337,172"/>
+  <text class="l" x="252" y="540">decision (button = POST)</text>
+  <path class="line" d="M262,158 L198,166"/>
+  <text class="l" x="200" y="196">result page</text>
+</svg>
